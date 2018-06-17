@@ -1,0 +1,8 @@
+GEO网址： https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81916 分为两个部分：
+    共同部分：https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=
+    变动部分：GSE81916
+FTP网址ftp://ftp-trace.ncbi.nlm.nih.gov ... RP/SRP075/SRP075747 可以分为以下几个部分
+    所有SRA数据的共同部分： ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant
+    reads表示存放reads数据，在FTP可以看到另一个选项是analysis，表示分析结果
+    ByStudy表示根据Study进行分类，其他还可以根据实验ByExp,根据Run,ByRun.
+    sra/SRP/SRP075/SRP075747: 后面部分都是为了便于检索
