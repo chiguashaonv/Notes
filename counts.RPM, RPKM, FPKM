@@ -1,0 +1,12 @@
+per million = total reads/1000000
+RPM = counts/permillion
+RPKM = RPM/length(gene)[kb]
+note: RPKM是对于单端测序来讲的，一条reads对应一个片段，FPKM是对于双端测序来讲，两条reads对应一个片段。所以，FPKM的计算跟RPKM是一致的，只不过在计算total reads时只需要计算一端的reads数。
+
+RPK = counts/length(gene)[kb]
+per million = sum(RPK)[a sample]/1000000
+TPM = RPK/per million
+method: R package "scater" "SingleCellExperiment"
+
+来源：RPM, RPKM, FPKM, TPM...
+http://www.rna-seqblog.com/rpkm-fpkm-and-tpm-clearly-explained/
